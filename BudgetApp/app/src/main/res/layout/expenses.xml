@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B1DFA5"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:fontFamily="@font/gorditas_bold"
+        android:inputType="textPersonName"
+        android:text="Expenses"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/frameLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="405dp"
+        android:layout_height="518dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText">
+
+        <EditText
+            android:id="@+id/Rentid"
+            android:layout_width="149dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="8dp"
+            android:ems="10"
+            android:hapticFeedbackEnabled="true"
+            android:hint="Amnt"
+            android:inputType="textPersonName"
+            android:textColorHint="#547239"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Travellingid" />
+
+        <EditText
+            android:id="@+id/Miscellaneousid"
+            android:layout_width="149dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="8dp"
+            android:ems="10"
+            android:hapticFeedbackEnabled="true"
+            android:hint="Amnt"
+            android:inputType="textPersonName"
+            android:textColorHint="#547239"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Rentid" />
+
+        <EditText
+            android:id="@+id/Travellingid"
+            android:layout_width="149dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="8dp"
+            android:ems="10"
+            android:hapticFeedbackEnabled="true"
+            android:hint="Amnt"
+            android:inputType="textPersonName"
+            android:textColorHint="#547239"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Medicalid" />
+
+        <EditText
+            android:id="@+id/Medicalid"
+            android:layout_width="149dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="49dp"
+            android:layout_marginEnd="8dp"
+            android:ems="10"
+            android:hapticFeedbackEnabled="true"
+            android:hint="Amnt"
+            android:inputType="textPersonName"
+            android:textColorHint="#547239"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/foodid" />
+
+        <TextView
+            android:id="@+id/editText6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="49dp"
+            android:ems="10"
+            android:fontFamily="@font/acme"
+            android:inputType="textPersonName"
+            android:text="Medical"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/foodid" />
+
+        <TextView
+            android:id="@+id/editText8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="48dp"
+            android:ems="10"
+            android:fontFamily="@font/acme"
+            android:inputType="textPersonName"
+            android:text="Travelling"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Medicalid" />
+
+        <TextView
+            android:id="@+id/editText9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="48dp"
+            android:ems="10"
+            android:fontFamily="@font/acme"
+            android:inputType="textPersonName"
+            android:text="Rent"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Travellingid" />
+
+        <TextView
+            android:id="@+id/editText12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="48dp"
+            android:ems="10"
+            android:fontFamily="@font/acme"
+            android:inputType="textPersonName"
+            android:text="Miscellaneous"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Rentid" />
+
+        <TextView
+            android:id="@+id/editText4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="27dp"
+            android:ems="10"
+            android:fontFamily="@font/acme"
+            android:inputType="textPersonName"
+            android:paddingTop="10dp"
+            android:text="Food"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/foodid"
+            android:layout_width="149dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="8dp"
+            android:autoText="false"
+            android:elegantTextHeight="true"
+            android:ems="10"
+            android:hapticFeedbackEnabled="true"
+            android:hint="Amnt"
+            android:inputType="textPersonName"
+            android:textColorHint="#547239"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/Totalamntid"
+            android:layout_width="143dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="27dp"
+            android:layout_marginBottom="36dp"
+            android:background="@drawable/bg_savebuttonround"
+            android:fontFamily="@font/gorditas"
+            android:hapticFeedbackEnabled="true"
+            android:text="Total Amnt"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.198"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Miscellaneousid"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/resultid"
+            android:layout_width="61dp"
+            android:layout_height="31dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="37dp"
+            android:layout_marginEnd="104dp"
+            android:layout_marginBottom="47dp"
+            android:text="Result"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/Totalamntid"
+            app:layout_constraintTop_toBottomOf="@+id/Miscellaneousid" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

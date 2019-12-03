@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+
+        <item>@font/aclonica</item>
+        <item>@font/acme</item>
+        <item>@font/averia_gruesa_libre</item>
+        <item>@font/bowlby_one</item>
+        <item>@font/david_libre_medium</item>
+        <item>@font/gorditas</item>
+        <item>@font/gorditas_bold</item>
+        <item>@font/joti_one</item>
+    </array>
+</resources>
